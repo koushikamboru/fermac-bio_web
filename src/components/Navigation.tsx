@@ -72,7 +72,7 @@ export default function Navigation() {
           <div className="hidden md:flex items-center justify-center flex-1">
             <div className="flex items-center space-x-8">
               <Link
-                href="#home"
+                href="/"
                 onClick={() => setActive('home')}
                 aria-current={active === 'home' ? 'page' : undefined}
                 className={`uppercase tracking-wider pb-1 transition-colors duration-200 ${
@@ -83,7 +83,7 @@ export default function Navigation() {
                 HOME
               </Link>
               <Link
-                href="#about"
+                href="/about"
                 onClick={() => setActive('about')}
                 aria-current={active === 'about' ? 'page' : undefined}
                 className={`uppercase tracking-wider pb-1 transition-colors duration-200 ${
@@ -94,7 +94,7 @@ export default function Navigation() {
                 ABOUT US
               </Link>
               <Link
-                href="#products"
+                href="/products"
                 onClick={() => setActive('products')}
                 aria-current={active === 'products' ? 'page' : undefined}
                 className={`uppercase tracking-wider pb-1 transition-colors duration-200 ${
@@ -105,7 +105,7 @@ export default function Navigation() {
                 PRODUCTS
               </Link>
               <Link
-                href="#directors"
+                href="/directors"
                 onClick={() => setActive('directors')}
                 aria-current={active === 'directors' ? 'page' : undefined}
                 className={`uppercase tracking-wider pb-1 transition-colors duration-200 ${
@@ -116,7 +116,7 @@ export default function Navigation() {
                 DIRECTORS
               </Link>
               <Link
-                href="#contact"
+                href="/contact"
                 onClick={() => setActive('contact')}
                 aria-current={active === 'contact' ? 'page' : undefined}
                 className={`uppercase tracking-wider pb-1 transition-colors duration-200 ${
@@ -149,7 +149,7 @@ export default function Navigation() {
         <div className="px-4 pt-3 pb-4">
           <nav className="flex flex-col divide-y">
             <Link
-              href="#home"
+              href="/"
               onClick={() => { setActive('home'); setOpen(false); }}
               aria-current={active === 'home' ? 'page' : undefined}
               className={`py-3 text-center uppercase ${active === 'home' ? 'text-[#002F3C] font-semibold' : 'text-[#626262] font-medium'}`}
@@ -158,7 +158,7 @@ export default function Navigation() {
               HOME
             </Link>
             <Link
-              href="#about"
+              href="/about"
               onClick={() => { setActive('about'); setOpen(false); }}
               aria-current={active === 'about' ? 'page' : undefined}
               className={`py-3 text-center uppercase ${active === 'about' ? 'text-[#002F3C] font-semibold' : 'text-[#626262] font-medium'}`}
@@ -167,7 +167,7 @@ export default function Navigation() {
               ABOUT US
             </Link>
             <Link
-              href="#products"
+              href="/products"
               onClick={() => { setActive('products'); setOpen(false); }}
               aria-current={active === 'products' ? 'page' : undefined}
               className={`py-3 text-center uppercase ${active === 'products' ? 'text-[#002F3C] font-semibold' : 'text-[#626262] font-medium'}`}
@@ -176,7 +176,7 @@ export default function Navigation() {
               PRODUCTS
             </Link>
             <Link
-              href="#directors"
+              href="/directors"
               onClick={() => { setActive('directors'); setOpen(false); }}
               aria-current={active === 'directors' ? 'page' : undefined}
               className={`py-3 text-center uppercase ${active === 'directors' ? 'text-[#002F3C] font-semibold' : 'text-[#626262] font-medium'}`}
@@ -185,7 +185,7 @@ export default function Navigation() {
               DIRECTORS
             </Link>
             <Link
-              href="#contact"
+              href="/contact"
               onClick={() => { setActive('contact'); setOpen(false); }}
               aria-current={active === 'contact' ? 'page' : undefined}
               className={`py-3 text-center uppercase ${active === 'contact' ? 'text-[#002F3C] font-semibold' : 'text-[#626262] font-medium'}`}

@@ -33,14 +33,14 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-2 opacity-0 animate-slide-up animate-delay-200">
             <Link
-              href="#products"
+              href="/products"
               className="bg-[#00BEDB] hover:bg-[#00aebd] text-[#FFFFFF] px-12 py-4 rounded-lg transition-colors shadow-lg"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px' }}
             >
               Explore Our Products
             </Link>
             <Link
-              href="#contact"
+              href="/contact"
               className="bg-transparent border-2 border-white hover:bg-white hover:text-teal-800 text-white px-12 py-4 rounded-lg transition-colors"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px' }}
             >

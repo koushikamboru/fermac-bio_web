@@ -94,7 +94,7 @@ export default function Products() {
                 </div>
 
                 <Link 
-                  href="#contact"
+                  href="/contact"
                   className="block w-full bg-cyan-500 hover:bg-cyan-600 text-white text-center font-semibold py-3 rounded-lg transition-colors"
                 >
                   Learn More

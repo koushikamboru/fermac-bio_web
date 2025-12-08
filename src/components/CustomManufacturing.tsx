@@ -25,7 +25,7 @@ export default function CustomManufacturing() {
             </p>
 
             <Link 
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center bg-white hover:bg-gray-100 text-teal-900 font-semibold px-8 py-4 rounded-lg transition-colors shadow-lg"
             >
               <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
