@@ -1,37 +1,39 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CustomManufacturing() {
   return (
-    <section className="py-20 bg-gradient-to-br from-teal-900 via-teal-800 to-teal-900">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        {/* DNA Background Pattern */}
-        <div className="relative">
-          <div className="absolute inset-0 opacity-10">
-            <svg viewBox="0 0 200 200" className="w-full h-full">
-              <circle cx="50" cy="50" r="30" fill="currentColor" className="text-cyan-400" />
-              <circle cx="150" cy="50" r="30" fill="currentColor" className="text-pink-400" />
-              <circle cx="50" cy="150" r="30" fill="currentColor" className="text-pink-400" />
-              <circle cx="150" cy="150" r="30" fill="currentColor" className="text-cyan-400" />
-            </svg>
-          </div>
+    <section className="relative py-20 bg-white">
+      <div className="w-full flex justify-center">
+        <div className="relative rounded-[32px] overflow-hidden" style={{ width: 1312, height: 475 }}>
+          {/* background image */}
+          <Image src="/hcontact.svg" alt="Custom manufacturing background" fill className="object-cover" priority />
 
-          <div className="relative z-10">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          {/* overlay removed per request */}
+
+          {/* blurred dark blobs */}
+          <div className="absolute -left-20 -top-12 w-[474px] h-[455px] bg-[#002F3C] opacity-80 rounded-full filter blur-[160px]" />
+          <div className="absolute left-[470px] top-[68px] w-[488px] h-[451px] bg-[#002F3C] opacity-80 rounded-full filter blur-[160px]" />
+          <div className="absolute left-[890px] -top-[53px] w-[509px] h-[465px] bg-[#002F3C] opacity-80 rounded-full filter blur-[160px]" />
+
+          {/* content */}
+          <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-8">
+            <h2 className="font-poppins font-bold text-[42px] leading-[38px] text-white tracking-[0.02em] drop-shadow-[0_3px_4px_rgba(0,0,0,0.68)]">
               Custom Manufacturing Solutions
             </h2>
-            <p className="text-xl text-gray-100 mb-10 max-w-3xl mx-auto leading-relaxed">
-              In Addition To Our Core Products, We Offer Custom Manufacturing Services For Pharmaceutical 
-              Companies Looking To Develop Specialized Antibiotic Formulations.
+
+            <p className="mt-6 text-[20px] font-inter font-semibold leading-[43px] text-white tracking-[0.02em] max-w-[961px]">
+              In Addition To Our Core Products, We Offer Custom Manufacturing Services For Pharmaceutical Companies
+              Looking To Develop Specialized Antibiotic Formulations.
             </p>
 
-            <Link 
-              href="/contact"
-              className="inline-flex items-center bg-white hover:bg-gray-100 text-teal-900 font-semibold px-8 py-4 rounded-lg transition-colors shadow-lg"
-            >
-              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              Contact Us
+            <Link href="/contact" className="mt-10">
+              <div className="inline-flex items-center bg-white/20 border border-white rounded-[12px] px-6 py-3 backdrop-blur-sm">
+                <svg className="w-6 h-6 mr-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span className="text-white font-poppins font-semibold text-[26px] leading-[38px]">Contact Us</span>
+              </div>
             </Link>
           </div>
         </div>
