@@ -49,7 +49,7 @@ export default function Navigation() {
           <div className="flex items-center gap-4">
             <Link href="/" className="flex items-center">
               <div className="w-12 h-12 flex items-center justify-center mr-2">
-                <Image src="/LOGO.png" alt="FERMAC BIO logo" width={44} height={44} className="rounded-full object-cover" />
+                <Image src="/logo/LOGO.png" alt="FERMAC BIO logo" width={44} height={44} className="rounded-full object-cover" />
               </div>
               <div className="flex flex-col leading-tight">
                 <span
