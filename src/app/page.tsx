@@ -3,7 +3,7 @@ import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import TrustSection from '@/components/TrustSection';
 import Partners from '@/components/Partners';
-import Products from '@/components/Products';
+import ProductsIntro from '@/components/ProductsIntro';
 import CustomManufacturing from '@/components/CustomManufacturing';
 import Footer from '@/components/Footer';
 
@@ -16,7 +16,7 @@ export default function Home() {
         <Features />
         <TrustSection />
         <Partners />
-        <Products />
+        <ProductsIntro />
         <CustomManufacturing />
       </main>
       <Footer />
