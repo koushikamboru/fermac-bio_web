@@ -47,8 +47,7 @@ export default function Features() {
             Pioneering <span className="text-cyan-500">Biotechnology</span> Manufacturing
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            FBPL Stands At The Forefront Of Biotechnology Innovation, Specializing In The Manufacturing Of High-Quality 
-            Antibiotics Through Advanced Fermentation Processes. Our Commitment To Excellence Is Everything We Do.
+            Fermac Bio Stands At The Forefront Of Biotechnology Innovation, Specializing In The Manufacturing Of High-Quality Specialty Antibiotics. Through Advanced Fermentation Processes. Our Commitment To Excellence Is Everything We Do.
           </p>
         </div>
 

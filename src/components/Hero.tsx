@@ -58,7 +58,7 @@ export default function Hero() {
             >
               Driving Innovation, Quality, And Breakthrough Solutions In
               <br />
-              Fermentation-Based API Development.
+              Fermentation-Based API Research & Development, Scaleup & Commercialization.
             </p>
           </div>
         </div>

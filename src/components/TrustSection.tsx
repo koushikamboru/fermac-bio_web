@@ -21,14 +21,14 @@ export default function TrustSection() {
 
           {/* Right Stats */}
           <div className="grid grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg text-center border border-gray-100">
+            {/*<div className="bg-white p-8 rounded-xl shadow-lg text-center border border-gray-100">
               <div className="text-5xl font-bold text-cyan-500 mb-2">500+</div>
               <div className="text-gray-600 font-medium">Health Care Partners</div>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center border border-gray-100">
               <div className="text-5xl font-bold text-cyan-500 mb-2">50+</div>
               <div className="text-gray-600 font-medium">Countries Served</div>
-            </div>
+            </div>*/}
             <div className="bg-white p-8 rounded-xl shadow-lg text-center border border-gray-100">
               <div className="text-5xl font-bold text-cyan-500 mb-2">25+</div>
               <div className="text-gray-600 font-medium">Years Experience</div>

@@ -10,7 +10,7 @@ export default function AboutIntro() {
           <p style={{ fontFamily: 'Inter, sans-serif' }} className="mt-6 max-w-3xl mx-auto text-[18px] leading-8 text-[#3E3E3E] font-medium">
             Established in 2022, <span className="text-[#007FA2]">Fermac Bio</span> develops and produces premium fermentation-based Active
             Pharmaceutical Ingredients (APIs), focusing on antibiotics and complex secondary metabolites.
-            Founded by biotech and chemical engineering veterans, the company combines deep domain
+            Founded by Biotech, Pharma and Chemical Engineering Veteran Professionals, the company combines deep domain
             knowledge with modern R&D and cGMP manufacturing practices to bring first-in-India innovations to market.
           </p>
         </div>
@@ -22,26 +22,23 @@ export default function AboutIntro() {
             <div>
               <h3 className="text-[24px] font-semibold text-black">1. Founding Expertise</h3>
               <p style={{ fontFamily: 'Inter, sans-serif' }} className="mt-3 text-[18px] leading-8 text-[#3E3E3E] font-medium">
-                Founded by industry leaders with 25+ years of experience in scaling complex fermentation
-                technologies, FERMAC’s leadership drives technical excellence and strategic growth.
+                Founded by industry leaders with 25+ years of experience in R&D, Scaleup, Scale Down and Commercialization fermentation technologies, FERMAC’s leadership drives technical excellence and strategic growth.
               </p>
             </div>
 
             <div>
               <h3 className="text-[24px] font-semibold text-black">2. Research Infrastructure</h3>
               <p style={{ fontFamily: 'Inter, sans-serif' }} className="mt-3 text-[18px] leading-8 text-[#3E3E3E] font-medium">
-                We maintain advanced laboratories for strain development, process optimization, and
-                analytical method development — enabling rapid tech transfer and scale-up.
+                We Maintain State of Art Laboratories & Research centres for strain development, Screening, Process Optimization, Isolation & Purification, and analytical method development enabling rapid tech transfer and scale-up.
               </p>
             </div>
 
             <div>
               <h3 className="text-[24px] font-semibold text-black">3. Strategic Partnerships & Market Opportunity</h3>
               <p style={{ fontFamily: 'Inter, sans-serif' }} className="mt-3 text-[18px] leading-8 text-[#3E3E3E] font-medium">
-                <span className="text-[#007FA2]">Fermac Bio</span> has strategic ties with Bransun Labs and Fleming Labs to combine deep R&D
-                capabilities with fast commercial scaling and global market access. India’s reliance on
+                <span className="text-[#007FA2]">Fermac Bio</span> has strategic ties with Bransun Labs and Fleming Labs to combine deep R&D, Process Engineering Capabilities with fast commercial scaling and global market access. India’s reliance on
                 imports for fermentation-based APIs creates a major opportunity — <span className="text-[#007FA2]">Fermac Bio</span> aims to
-                become a leading domestic supplier for high-value APIs.
+                become a leading domestic supplier for fermentation-based specialty APIs..
               </p>
             </div>
 

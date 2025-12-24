@@ -20,7 +20,7 @@ export default function ProductsIntro() {
     <section className="pt-10 pb-4 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="font-poppins font-semibold text-[38px] leading-[44px] text-[#002F3C]">Our <span className="text-[#00BEDB]">Products</span></h1>
-        <p className="mt-4 text-[22px] leading-9 text-[#3E3E3E] max-w-[1117px] mx-auto">Explore our fermentation‑based API portfolio, crafted with precision, purity, and industry‑grade performance. Each product undergoes advanced fermentation, stringent quality checks, and optimized downstream processing to ensure consistency, safety, and global compliance.</p>
+        <p className="mt-4 text-[22px] leading-9 text-[#3E3E3E] max-w-[1117px] mx-auto">Explore our fermentation‑based API portfolio, crafted with precision, purity, and industry‑grade performance. All products manufactured by specialty fermentation, stringent quality checks, and Optimized Downstream processing to ensure consistency, safety, Purity and Global compliance.</p>
       </div>
 
       {/* Cards row */}

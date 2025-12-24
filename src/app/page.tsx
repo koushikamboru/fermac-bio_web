@@ -4,7 +4,6 @@ import Features from '@/components/Features';
 import TrustSection from '@/components/TrustSection';
 import Partners from '@/components/Partners';
 import ProductsIntro from '@/components/ProductsIntro';
-import CustomManufacturing from '@/components/CustomManufacturing';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
         <TrustSection />
         <Partners />
         <ProductsIntro />
-        <CustomManufacturing />
       </main>
       <Footer />
     </div>
