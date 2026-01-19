@@ -38,7 +38,7 @@ export default function AboutIntro() {
               <p style={{ fontFamily: 'Inter, sans-serif' }} className="mt-3 text-[18px] leading-8 text-[#3E3E3E] font-medium">
                 <span className="text-[#007FA2]">Fermac Bio</span> has strategic ties with Bransun Labs and Fleming Labs to combine deep R&D, Process Engineering Capabilities with fast commercial scaling and global market access. India’s reliance on
                 imports for fermentation-based APIs creates a major opportunity — <span className="text-[#007FA2]">Fermac Bio</span> aims to
-                become a leading domestic supplier for fermentation-based specialty APIs..
+                become a leading domestic supplier for fermentation-based specialty APIs.
               </p>
             </div>
 

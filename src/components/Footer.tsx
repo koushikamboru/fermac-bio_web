@@ -110,7 +110,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span className="text-sm">
-                  FBPL Biotechnology Complex<br />
+                  Fermac Biotechnology Complex<br />
                   Phase-II, Patancheru, India
                 </span>
               </li>
@@ -121,7 +121,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-teal-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-            <p>© 2024 FBPL Biotechnology. All Rights Reserved.</p>
+            <p>© 2024 Fermac Biotechnology. All Rights Reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="#" className="hover:text-cyan-400 transition-colors">
                 Privacy Policy

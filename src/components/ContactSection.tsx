@@ -86,7 +86,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-base md:text-lg">Corporate Headquarters</div>
-                  <div className="text-sm md:text-base text-white/90">FBPL Biotechnology Complex Sector 18, Pharmaceutical Park, Hyderabad, Telangana 500032, India</div>
+                  <div className="text-sm md:text-base text-white/90">Fermac BioBiotechnology Complex Sector 18, Pharmaceutical Park, Hyderabad, Telangana 500032, India</div>
                 </div>
               </div>
 
@@ -106,7 +106,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-base md:text-lg">Email Addresses</div>
-                  <div className="text-sm md:text-base text-white/90">General: info@fbpl.com<br/>Sales: sales@fbpl.com<br/>Support: support@fbpl.com</div>
+                  <div className="text-sm md:text-base text-white/90">General: info@fermacbio.com<br/>Sales: sales@fermacbio.com<br/>Support: support@fermacbio.com</div>
                 </div>
               </div>
 

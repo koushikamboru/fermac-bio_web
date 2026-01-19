@@ -1,9 +1,7 @@
 export default function Partners() {
   const partners = [
-    { name: "Bransum Labs", icon: "🏢" },
-    { name: "Fleming Labs", icon: "🏢" },
-    { name: "Company-3", icon: "🏢" },
-    { name: "Company-4", icon: "🏢" }
+    { name: "Bransun Labs LLP ", icon: "🏢" },
+    { name: "Fleming Laboratories Limited", icon: "🏢" },
   ];
 
   return (
@@ -19,12 +17,12 @@ export default function Partners() {
           </p>
         </div>
 
-        {/* Partners Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Partners Grid - centered and responsive */}
+        <div className="flex flex-wrap justify-center gap-6">
           {partners.map((partner, index) => (
-            <div 
+            <div
               key={index}
-              className="bg-teal-900 hover:bg-teal-800 p-8 rounded-lg transition-colors cursor-pointer group"
+              className="w-full sm:w-80 md:w-96 bg-teal-900 hover:bg-teal-800 p-8 rounded-lg transition-colors cursor-pointer group"
             >
               <div className="flex flex-col items-center justify-center text-center h-full">
                 <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
