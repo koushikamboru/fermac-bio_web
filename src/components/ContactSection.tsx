@@ -71,12 +71,12 @@ export default function ContactSection() {
       <div className="absolute inset-0 -z-10" style={{ background: 'rgba(0,24,31,0.72)' }} />
 
       {/* Centered container converted to responsive layout: info (left) and form (right) */}
-      <div className="w-full max-w-[1100px] mx-auto px-4 py-10 md:py-16 z-10">
+      <div className="w-full max-w-[1280px] mx-auto px-2 sm:px-4 py-8 md:py-14 z-10">
         <div className="mx-auto">
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 md:items-stretch mb-6 min-h-[420px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 md:items-start mb-6">
             {/* Left: info + manufacturing */}
-            <div className="flex flex-col h-full space-y-3 md:space-y-4 text-white md:pt-2 md:pr-4">
+            <div className="flex flex-col space-y-3 md:space-y-4 text-white md:pt-2 md:pr-2">
               <div className="text-white mb-4 md:mb-6">
                 <div className="font-semibold text-2xl md:text-2xl lg:text-3xl">Contact Information</div>
               </div>
@@ -138,43 +138,43 @@ export default function ContactSection() {
 
 
             {/* Right: form */}
-            <div className="h-full">
-              <div className="bg-white/6 border border-white/20 rounded-lg p-4 sm:p-6 md:p-6 backdrop-blur-sm text-white h-full flex flex-col">
+            <div>
+              <div className="bg-white/6 border border-white/20 rounded-lg p-3 sm:p-4 md:p-4 backdrop-blur-sm text-white flex flex-col">
                 <h3 className="text-center font-semibold mb-4 lowercase text-lg sm:text-xl md:text-2xl">send us a message</h3>
-                <form onSubmit={handleSubmit} className="space-y-3 md:space-y-4 flex-1">
+                <form onSubmit={handleSubmit} className="space-y-3 md:space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                     <div>
                       <label className="block text-sm md:text-base mb-1">First Name *</label>
-                      <input value={form.firstName} onChange={(e)=>setForm({...form, firstName: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-4 py-2 md:py-3 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your First Name" />
+                      <input value={form.firstName} onChange={(e)=>setForm({...form, firstName: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-3 py-2 md:py-2 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your First Name" />
                     </div>
                     <div>
                       <label className="block text-sm md:text-base mb-1">Last Name *</label>
-                      <input value={form.lastName} onChange={(e)=>setForm({...form, lastName: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-4 py-2 md:py-3 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your Last Name" />
+                      <input value={form.lastName} onChange={(e)=>setForm({...form, lastName: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-3 py-2 md:py-2 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your Last Name" />
                     </div>
                   </div>
 
                   <div>
                     <label className="block text-sm md:text-base mb-1">Email Address *</label>
-                    <input type="email" value={form.email} onChange={(e)=>setForm({...form, email: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-4 py-2 md:py-3 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your Email" />
+                    <input type="email" value={form.email} onChange={(e)=>setForm({...form, email: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-3 py-2 md:py-2 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your Email" />
                   </div>
 
                   <div>
                     <label className="block text-sm md:text-base mb-1">Company *</label>
-                    <input value={form.company} onChange={(e)=>setForm({...form, company: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-4 py-2 md:py-3 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your Company" />
+                    <input value={form.company} onChange={(e)=>setForm({...form, company: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-3 py-2 md:py-2 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your Company" />
                   </div>
 
                   <div>
                     <label className="block text-sm md:text-base mb-1">Subject *</label>
-                    <input value={form.subject} onChange={(e)=>setForm({...form, subject: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-4 py-2 md:py-3 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter message Subject" />
+                    <input value={form.subject} onChange={(e)=>setForm({...form, subject: e.target.value})} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-3 py-2 md:py-2 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter message Subject" />
                   </div>
 
                   <div>
                     <label className="block text-sm md:text-base mb-1">Message *</label>
-                    <textarea value={form.message} onChange={(e)=>setForm({...form, message: e.target.value})} rows={3} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-4 py-2 md:py-3 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your message here..." />
+                    <textarea value={form.message} onChange={(e)=>setForm({...form, message: e.target.value})} rows={3} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-3 py-2 md:py-2 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your message here..." />
                   </div>
 
                   <div>
-                    <button type="submit" disabled={submitting} className="w-full bg-white text-teal-900 py-3 md:py-4 rounded-md font-semibold text-sm md:text-base">{submitting ? 'Sending...' : 'Submit'}</button>
+                    <button type="submit" disabled={submitting} className="w-full bg-white text-teal-900 py-3 md:py-3 rounded-md font-semibold text-sm md:text-base">{submitting ? 'Sending...' : 'Submit'}</button>
                   </div>
 
                   {statusMessage && (<div className="text-center pt-2"><span className="text-white text-sm md:text-base">{statusMessage}</span></div>)}
