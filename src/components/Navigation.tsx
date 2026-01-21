@@ -52,17 +52,25 @@ export default function Navigation() {
                 <Image src="/logo/LOGO.png" alt="FERMAC BIO logo" width={44} height={44} className="rounded-full object-cover" />
               </div>
               <div className="flex flex-col leading-tight">
-                <span
-                  style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '28px', lineHeight: 1 }}
-                  className="text-[#002F3C]"
-                >
-                  FERMAC
-                </span>
-                <span
+                <div className="flex items-center gap-1">
+                  <span
                     style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '28px', lineHeight: 1 }}
-                  className="text-[#00BEDB]"
+                    className="text-[#002F3C]"
+                  >
+                    FERMAC
+                  </span>
+                  <span
+                      style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '28px', lineHeight: 1 }}
+                    className="text-[#00BEDB]"
+                  >
+                    BIO
+                  </span>
+                </div>
+                <span
+                  style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: 1.2 }}
+                  className="text-gray-600 mt-1"
                 >
-                  BIO
+                  Miracles of Microbone
                 </span>
               </div>
             </Link>

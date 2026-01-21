@@ -9,7 +9,7 @@ export default function TrustSection() {
               Trusted By Healthcare Professionals <span className="text-cyan-500">Worldwide</span>
             </h2>
             <p className="text-gray-600 text-lg mb-8">
-              With Over Two Decades Of Experience in Chemical & Biotechnology Manufacturing, Fermac Biotechnology Has Established Itself As A Trusted 
+              With Over Two Decades Of Experience in Chemical & Biotechnology Manufacturing, Fermac Bio Has Established Itself As A Trusted 
               Partner In The International Healthcare Industry. Our State-Of-The-Art Facilities Utilize Advanced Fermentation 
               Technology To Produce High-Quality Antibiotics That Meet The Most Stringent International Standards.
             </p>

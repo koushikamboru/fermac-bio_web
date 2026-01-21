@@ -86,7 +86,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-base md:text-lg">Corporate Headquarters</div>
-                  <div className="text-sm md:text-base text-white/90">Fermac BioBiotechnology Complex Sector 18, Pharmaceutical Park, Hyderabad, Telangana 500032, India</div>
+                  <div className="text-sm md:text-base text-white/90">Plot No: 08, 1st Floor, Dommara Pochampally, Dundigal Village, Dundigal - Gandimaisamma - 500 043. Telangana.</div>
+                  <div className="mt-1"><a href="https://maps.app.goo.gl/7VTSratuc3JnYiNV6" target="_blank" rel="noopener noreferrer" className="text-cyan-200 underline">View on map</a></div>
                 </div>
               </div>
 
@@ -96,7 +97,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-base md:text-lg">Phone Numbers</div>
-                  <div className="text-sm md:text-base text-white/90">Main: +91 40 2345 6789<br/>Sales: +91 40 2345 6790<br/>Support: +91 40 2345 6791</div>
+                  <div className="text-sm md:text-base text-white/90">Main: <a href="tel:+914024242999" className="underline">+91 40 2424 2999</a><br/>Sales: <a href="tel:+914099999999" className="underline">+91 40 9999 9999</a><br/>Support: <a href="tel:+914099999999" className="underline">+91 40 9999 9999</a></div>
                 </div>
               </div>
 
@@ -106,7 +107,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-base md:text-lg">Email Addresses</div>
-                  <div className="text-sm md:text-base text-white/90">General: info@fermacbio.com<br/>Sales: sales@fermacbio.com<br/>Support: support@fermacbio.com</div>
+                  <div className="text-sm md:text-base text-white/90">General: <a href="mailto:info@fermacbio.in" className="underline">info@fermacbio.in</a><br/>Sales: <a href="mailto:sales@fermacbio.in" className="underline">sales@fermacbio.in</a><br/>Support: <a href="mailto:support@fermacbio.in" className="underline">support@fermacbio.in</a></div>
                 </div>
               </div>
 
@@ -120,13 +121,21 @@ export default function ContactSection() {
                 </div>
               </div>
 
+          
+
               <div className="mt-4">
                 <div className="bg-[#E9F6F8] rounded-lg p-4 sm:p-6">
                   <div className="font-semibold text-lg md:text-xl text-[#282828]">Manufacturing Facility</div>
-                  <p className="mt-2 text-sm md:text-base text-[#474747]">Our state-of-the-art manufacturing facility is located in the Genome Valley, Hyderabad, spanning over 50 acres with advanced fermentation units and quality control laboratories.</p>
+                  <p className="mt-2 text-sm md:text-base text-[#474747]">Our state-of-the-art facility is strategically located approximately 40 km from Hyderabad, with seamless connectivity to the Outer Ring Road (ORR) and state highway. Factory Spread across 5 acres of land, our facility has been thoughtfully designed to maintain a harmonious balance between infrastructure and nature, with 33% of the area dedicated to greenery and vegetation. This Facility is specifically designed for the production of fermentation-based primary and secondary metabolites, with a specialized focus on classical fermentation for antibiotic production.</p>
+                  <div className="mt-2"><a href="https://maps.app.goo.gl/bxL38GxmpFgtziTH8" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">View on map</a></div>
                 </div>
               </div>
+             
             </div>
+
+
+
+
 
             {/* Right: form */}
             <div className="h-full">
@@ -161,10 +170,10 @@ export default function ContactSection() {
 
                   <div>
                     <label className="block text-sm md:text-base mb-1">Message *</label>
-                    <textarea value={form.message} onChange={(e)=>setForm({...form, message: e.target.value})} rows={5} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-4 py-2 md:py-3 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your message here..." />
+                    <textarea value={form.message} onChange={(e)=>setForm({...form, message: e.target.value})} rows={3} className="w-full rounded-md border border-white/30 bg-transparent px-3 md:px-4 py-2 md:py-3 placeholder-white/60 outline-none text-sm md:text-base" placeholder="Enter your message here..." />
                   </div>
 
-                  <div className="pt-1">
+                  <div>
                     <button type="submit" disabled={submitting} className="w-full bg-white text-teal-900 py-3 md:py-4 rounded-md font-semibold text-sm md:text-base">{submitting ? 'Sending...' : 'Submit'}</button>
                   </div>
 
