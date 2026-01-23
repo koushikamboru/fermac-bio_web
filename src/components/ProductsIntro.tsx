@@ -1,19 +1,5 @@
+import Link from 'next/link';
 import React from 'react';
-
-const products = [
-  {
-    name: 'FB01 – Premium Antibiotic A',
-    description: 'High-purity fermentation-derived antibiotic for clinical use.',
-  },
-  {
-    name: 'FB-02 – Advanced Antibiotic B',
-    description: 'Precision fermentation product meeting global pharmacopeia standards.',
-  },
-  {
-    name: 'FB-03 – Specialty API C',
-    description: 'Complex secondary metabolite produced with optimized downstream processing.',
-  },
-];
 
 export default function ProductsIntro() {
   return (
@@ -23,23 +9,14 @@ export default function ProductsIntro() {
         <p className="mt-4 text-[22px] leading-9 text-[#3E3E3E] max-w-[1117px] mx-auto">Explore our fermentation‑based API portfolio, crafted with precision, purity, and industry‑grade performance. All products manufactured by specialty fermentation, stringent quality checks, and Optimized Downstream processing to ensure consistency, safety, Purity and Global compliance.</p>
       </div>
 
-      {/* Cards row */}
-      <div className="flex flex-col lg:flex-row items-stretch gap-6 justify-center mt-10 px-6">
-        {products.map((product, index) => (
-          <div key={index} className="relative w-full lg:w-[414px] h-[241px] bg-[#E9F6F8] border border-[#CBCACA] rounded-[12px] p-4 flex flex-col">
-            <div className="text-[#7F7E7E] font-inter text-[16px]">{`FB0${index + 1}`}</div>
-            <h3 className="font-poppins font-semibold text-[24px] leading-7 text-[#01495D] mt-2">{product.name}</h3>
-            <p className="text-[#3F3D3D] text-[18px] leading-8 mt-3 max-w-[324px]">{product.description}</p>
-
-            <div className="mt-auto flex items-center gap-4">
-              <button className="w-[161px] h-[40px] rounded-[22px] flex items-center justify-center text-white font-inter font-semibold text-[16px]" style={{ background: 'linear-gradient(180deg, #002F3C 10.1%, #008498 100%)' }}>
-                Request Spec
-              </button>
-
-              <button className="w-[127px] h-[40px] rounded-[22px] border border-[#002F3C] text-[#002F3C] font-inter font-semibold text-[16px]">Enquire</button>
-            </div>
-          </div>
-        ))}
+      {/* Simplified CTA row for homepage: single Explore button that navigates to /products */}
+      <div className="flex justify-center mt-10 px-6">
+        <Link
+          href="/products"
+          className="bg-[#00BEDB] hover:bg-[#00aebd] text-white px-10 py-4 rounded-[10px] font-inter font-semibold text-[18px] shadow-lg"
+        >
+          Explore Products
+        </Link>
       </div>
     </section>
   );
